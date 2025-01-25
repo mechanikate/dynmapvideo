@@ -1,5 +1,6 @@
 ## Dependencies
  * [minecraft-dynmap-timemachine (source code or use an old Python version) by martinsik](https://github.com/martinsik/minecraft-dynmap-timemachine)
+ * [ffmpeg](https://www.ffmpeg.org/)
 ## To change:
  * framerate: edit `createfilelist.py` and change `framerate=` in FPS
  * url for server: edit `take-photo.sh` and change `https://exampledynmap.com:8123` to your ip/port's dynmap
