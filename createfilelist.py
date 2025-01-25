@@ -13,4 +13,4 @@ def utilorder(directory):
     return sorted_items
 
 with open("list.txt", "w+") as f:
-    f.write("\n".join(list(map(lambda filename: "file '"+directory+"/"+filename+"'\nduration "+str(1/framerate),utilorder("./things/")))))
+    f.write("\n".join(list(map(lambda filename: "file '"+directory+"/"+filename+"'\nduration "+str(1/framerate),utilorder(directory+"/")))))
